@@ -1,0 +1,11 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="SalfetkaBlog.Views.PostDetailWindow"
+        Title="Post Details"
+        Width="400" Height="300">
+    <StackPanel>
+        <TextBox x:Name="TitleTextBox" Margin="10" PlaceholderText="Title"/>
+        <TextBox x:Name="ContentTextBox" Margin="10" PlaceholderText="Content" AcceptsReturn="True" Height="200"/>
+        <Button Content="Save" Margin="10" Click="Save_Click"/>
+    </StackPanel>
+</Window>
